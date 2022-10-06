@@ -12,5 +12,6 @@ move sshstart.sh to  /home/USER_NAME/bin to localise
 cd ~/toolbag
 
 ./sshstart.sh to start ssh service
+
 ./sshstart.sh -s to stop ssh service  
  

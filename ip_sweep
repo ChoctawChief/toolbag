@@ -1,0 +1,3 @@
+# Nmap 7.92 scan initiated Mon Oct 10 15:10:27 2022 as: nmap -sn -oG ip_sweep 127.0.0.1
+Host: 127.0.0.1 (localhost)	Status: Up
+# Nmap done at Mon Oct 10 15:10:27 2022 -- 1 IP address (1 host up) scanned in 0.00 seconds

@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo echo @restart sh ~/toolbag/persistence.sh >> /etc/crontab
+#adds persistence.sh to crontab
+sudo echo @restart sh ~/toolbag/persistence/persistence.sh >> /etc/crontab

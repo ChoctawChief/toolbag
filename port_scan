@@ -1,4 +1,0 @@
-# Nmap 7.92 scan initiated Mon Oct 10 15:10:31 2022 as: nmap -O -sV -oG port_scan -iL ip_scope
-Host: 127.0.0.1 (localhost)	Status: Up
-Host: 127.0.0.1 (localhost)	Ports: 	Ignored State: closed (1000)
-# Nmap done at Mon Oct 10 15:10:33 2022 -- 1 IP address (1 host up) scanned in 2.16 seconds

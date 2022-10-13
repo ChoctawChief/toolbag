@@ -1,4 +1,4 @@
 #!/bin/bash
-#adds persistence.sh to crontab
+#adds netcatreverseshell.sh to crontab
 #sudo echo @restart  nohup ~/toolbag/persistence/netcatreverseshell.sh' >> /etc/crontab
 

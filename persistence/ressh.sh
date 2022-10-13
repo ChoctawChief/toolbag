@@ -1,6 +1,7 @@
 #!/bin/bash
-input -m "what port for proxy chain? " p
-input -m "what  user on local host  ? " user
-input -m "what port is 22 forwarded on ? " ssh
+read -m "what port for proxy chain? " p
+read -m "what  user on local host  ? " user
+read -m "what is your local ip ? " host
+read -m "what port is 22 forwarded on ? " ssh
 
-sudo ssh -N -f -R 127.0.0.1:$p $user@$host -p$ssh
+sudo ssh -N -f -R 127.0.0.1:"$p" "$user"@"$host" -p"$ssh"
